@@ -1,0 +1,78 @@
+{
+    "flow1": [
+        {
+            "tanya": "halo",
+            "jawab": "jawaban",
+            "type": "templateMessages",
+            "list": [
+                "PENGADUAN LAYANAN","PASANG BARU"
+            ],
+            "text":"*Hai kak [nama_pengirim], Selamat datang di Whatsva Virtual Asisten*\n\nUntuk melanjutkan kakak bisa memilih menu di bawah ya kak . . .",
+            "footer":"Best Regard, Whatsva.id"
+        },
+        {
+            "tanya": "hai",
+            "jawab": "jawaban",
+            "type": "templateMessages",
+            "list": [
+                "PENGADUAN LAYANAN","PASANG BARU"
+            ],
+            "text":"*Hai kak [nama_pengirim], Selamat datang di Whatsva Virtual Asisten*\n\nUntuk melanjutkan kakak bisa memilih menu di bawah ya kak . . .",
+            "footer":"Best Regard, Whatsva.id"
+        },
+        {
+            "tanya": "test",
+            "jawab": "jawaban",
+            "type": "templateMessages",
+            "list": [
+                "PENGADUAN LAYANAN","PASANG BARU"
+            ],
+            "text":"*Hai kak [nama_pengirim], Selamat datang di Whatsva Virtual Asisten*\n\nUntuk melanjutkan kakak bisa memilih menu di bawah ya kak . . .",
+            "footer":"Best Regard, Whatsva.id"
+        },
+        {
+            "tanya": "hai juga",
+            "jawab": "apakabar",
+            "type": "text"
+        },
+        {
+            "tanya": "PENGADUAN LAYANAN",
+            "jawab": "jawaban",
+            "type": "listMessages",
+            "title":"*Kakak mengalami gangguan atau keluhan ?*",
+            "text":"Team kami siap membantu kakak . . .\nLanjutkan dengan memilih menu di bawah ini ya kak . . .",
+            "footer":"Best Regard, Whatsva.id",
+            "button":"PENGADUAN LAYANAN",
+            "list": [
+                "INTERNET","Administrasi dan Tagihan","Lainnya"
+            ]
+        },
+         {
+            "tanya": "INTERNET",
+            "jawab": "jawaban",
+            "type": "listMessages",
+            "title":"*Mohon maaf atas ketidaknyamananya ya kak*",
+            "text":"Apakah kendala yang kakak alami sesuai dengan menu di bawah ini?\nJika benar lanjutkan dengan memilih sesuai dengan kendala yang kakak alami ya . . .",
+            "footer":"Best Regard, Whatsva.id",
+            "button":"Jenis Gangguan",
+            "list": [
+                "Kecepatan Internet Sangat Lambat","Indikator lampu modem (ont) nyala Merah"
+            ]
+        },
+        {
+            "tanya": "Kecepatan Internet Sangat Lambat",
+            "jawab": "Mohon memberikan informasi berikut : \n1. Nama :\n2. Alamat :\n\nMohon Upload juga :  \n- Foto modem tampak depan dan tampak belakang\n- Share lokasi (shareloc)",
+            "type": "text"
+        },
+        {
+            "tanya": "Indikator lampu modem (ont) nyala Merah",
+            "jawab": "Mohon memberikan informasi berikut : \n1. Nama :\n2. Alamat :\n\nMohon Upload juga :  \n- Foto modem tampak depan dan tampak belakang\n- Share lokasi (shareloc)",
+            "type": "text"
+        },
+        {
+            "tanya": "PASANG BARU",
+            "jawab": "Silahkan melanjutkan dengan mengisi form berikut untuk melakukan Pendaftaran Pemasangan Baru.\n\n*https://forms.gle/SRri159zBSLhU6wY6*",
+            "type": "text"
+        }
+    ]
+}
